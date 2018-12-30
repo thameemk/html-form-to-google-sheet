@@ -5,6 +5,7 @@
 ## Step 1. Create a  Google Sheet
 ![](https://github.com/thameemk612/HTML-form-to-google-sheet/blob/master/img/1.png)
 ![](https://github.com/thameemk612/HTML-form-to-google-sheet/blob/master/img/2.png)
+
      You can add your own gs fields (Changes should be reflected in HTML form also
      
 ## Step 2. Create  Google Apps Script And Publish it (Code.gs)
@@ -39,8 +40,7 @@
 ## Step 4. Input your web app URL
 
     Open the file `message.js` and paste the url  `scriptURLC` on first line
-
-
-
-
-
+    
+![](https://github.com/thameemk612/HTML-form-to-google-sheet/blob/master/img/8.png)    
+    
+   
