@@ -1,54 +1,44 @@
 # HTML Form to Google Sheets 
 
-#### How to store data into Google sheet from an HTML form 
+#### In this tutorial you will learn how to store data into Google sheet from an HTML form 
 
-## 1. Create a  Google Sheet
+## Step 1. Create a  Google Sheet
 
-- Put the following headers into the first row:
 
 <img src="">
 
-- You can add your own custom fields (Changes should be reflected in HTML form also)
+- You can add your own gs fields (Changes should be reflected in HTML form also)
 
 
 
 ## 2. Create  Google Apps Script And Publish it (Code.gs)
 <img src="">
 
-- Gotto `Tools > Script Editor…` 
-- Clear the text arae
-- Paste the following script and save it
-
+ -Delete the text and paste Code.gs
 <img src="">
 
 
 
-- Go to `Run > Run Function > initialSetup`
+- Follow the instruction as show in the images
 <img src="">
 - Authorize the script by sign in to your Google account
   
 
-- Then go to  `Edit > Current project’s triggers`. 
+<- Then go to  `Edit > Current project’s triggers`. 
 - Click On `Add trigger` and select `doPost`
 
-- Change the events fields to `From spreadsheet` and `On form submit`and `Save` it
+- Change the events fields to `From spreadsheet` and `On form submit`and `Save` it>
 
 
 ## 3. Publish the project 
 
-- Go to o `Publish > Deploy as web app…`.
 
-`
-- For `Who has access to the app:` select `Anyone, even anonymous`.
-- Click On `Deploy`.
-- Copy the `Current web app URL` from the dialog.`
-
-
+-Publish the app and copy the url
 
 
 ## 6. Input your web app URL
 
-Open the file named `index.html`. On line 12 replace `<SCRIPT URL>` with your script url:
+Open the file `message.js` and paste the url  `scriptURLC` on first line
 
 
 ```
