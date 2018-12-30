@@ -7,41 +7,38 @@
 
 <img src="">
 
-- You can add your own gs fields (Changes should be reflected in HTML form also)
+     You can add your own gs fields (Changes should be reflected in HTML form also)
 
 
 
-## 2. Create  Google Apps Script And Publish it (Code.gs)
+## Step 2. Create  Google Apps Script And Publish it (Code.gs)
 <img src="">
 
- -Delete the text and paste Code.gs
+    Delete the text and paste Code.gs
 <img src="">
 
 
 
-- Follow the instruction as show in the images
+    Follow the instruction as show in the images
 <img src="">
-- Authorize the script by sign in to your Google account
+    Authorize the script by sign in to your Google account
   
 
-<- Then go to  `Edit > Current project’s triggers`. 
-- Click On `Add trigger` and select `doPost`
-
-- Change the events fields to `From spreadsheet` and `On form submit`and `Save` it>
-
-
-## 3. Publish the project 
+ //Then go to  `Edit > Current project’s triggers`. 
+ //Click On `Add trigger` and select `doPost`
+ //Change the events fields to `From spreadsheet` and `On form submit`and `Save` it
 
 
--Publish the app and copy the url
+## Step 3. Publish the project 
 
 
-## 6. Input your web app URL
-
-Open the file `message.js` and paste the url  `scriptURLC` on first line
+    Publish the app and copy the url
 
 
-```
+## Step 4. Input your web app URL
+
+    Open the file `message.js` and paste the url  `scriptURLC` on first line
+
 
 
 
