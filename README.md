@@ -24,9 +24,9 @@
     Authorize the script by sign in to your Google account
   
 
- //Then go to  `Edit > Current project’s triggers`. 
- //Click On `Add trigger` and select `doPost`
- //Change the events fields to `From spreadsheet` and `On form submit`and `Save` it
+ [Then go to  `Edit > Current project’s triggers`. 
+ Click On `Add trigger` and select `doPost`
+ Change the events fields to `From spreadsheet` and `On form submit`and `Save` it]
 
 
 ## Step 3. Publish the project 
