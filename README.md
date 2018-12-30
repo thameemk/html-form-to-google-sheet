@@ -41,6 +41,6 @@
 
     Open the file `message.js` and paste the url  `scriptURLC` on first line
     
-![](https://github.com/thameemk612/HTML-form-to-google-sheet/blob/master/img/8.png)    
+![](https://github.com/thameemk612/HTML-form-to-google-sheet/blob/master/img/9.png)    
     
    
