@@ -1,16 +1,31 @@
 <html>
-	<title> HTML Form To google sheet </title>
+<title> HTML Form To google sheet </title>
 <head>
-<link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="button.css">
+    <style>
+        .align_vertical_center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+        .form_field_margin {
+            margin: 20px;
+        }
+    </style>
 </head>
 <body>
-	<center><br><br><br><br><br><br><br><br><br><br><br>
-		<form name="html-form-to-google-sheet">
-			Name : <input type="text" name="name"><br><br><br>
-			Message : <input type="text" name="message"><br><br><br>
-			<button type="submit" class="ui inverted green button  " id="but">Send</button>
-		</form>
-	</cetnter>
+<div class="align_vertical_center">
+    <form name="html-form-to-google-sheet">
+        <div class="form_field_margin"><label>Name : <input type="text" name="name" required></label></div>
+        <div class="form_field_margin"><label>Email : <input type="email" name="email" required></label></div>
+        <div class="form_field_margin">
+            <button type="submit" class="ui inverted green button" id="but">Send</button>
+        </div>
+
+    </form>
+</div>
 <script src="message.js"></script>
 </body>
 </html>
